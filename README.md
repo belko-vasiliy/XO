@@ -1,2 +1,0 @@
-# XO
-XO game

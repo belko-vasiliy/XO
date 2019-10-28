@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE QtCreatorProject>
-<!-- Written by QtCreator 4.10.0, 2019-10-21T01:40:11. -->
+<!-- Written by QtCreator 4.10.0, 2019-10-28T01:08:35. -->
 <qtcreator>
  <data>
   <variable>EnvironmentId</variable>
@@ -318,7 +318,6 @@
     <value type="bool" key="RunConfiguration.UseMultiProcess">false</value>
     <value type="bool" key="RunConfiguration.UseQmlDebugger">false</value>
     <value type="bool" key="RunConfiguration.UseQmlDebuggerAuto">true</value>
-    <value type="bool" key="RunConfiguration.UseTerminal">true</value>
     <value type="QString" key="RunConfiguration.WorkingDirectory"></value>
     <value type="QString" key="RunConfiguration.WorkingDirectory.default">C:/Users/belko/OneDrive/Documents/QT/XO/build-XO-Desktop_Qt_5_13_1_MinGW_64_bit-u041eu0442u043bu0430u0434u043au0430</value>
    </valuemap>

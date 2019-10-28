@@ -9,7 +9,6 @@
 class Win
 {
 public:
-    QProcess* proc;
     Win();
     void winner(int enum_xo);
 };

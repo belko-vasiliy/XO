@@ -6,14 +6,10 @@ Win::Win()
 }
 void Win::winner(int enum_xo)
 {
-
-    QProcess *proc=new QProcess();
-
     QStringList argument;
     if (enum_xo==0)
     {
-        argument
-                 <<"                 _.---._    /\\    "
+        argument <<"                 _.---._    /\\    "
                  <<"              ./'        --`\//    "
                  <<"           ./              o \     "
                  <<"          /./\  )______   \__ \    "
@@ -39,15 +35,10 @@ void Win::winner(int enum_xo)
     }
     //         I'll do it later
     ///////////////////////////////////////
-    proc->start("cmd.exe /C start cmd.exe");
-
-
-    //proc->start("cmd.exe /C start cmd.exe",argument);
-
-    //QProcess::startDetached("\"C:\\Windows\\System32\\cmd.exe\"");
-    //proc->startDetached("\"C:\\Windows\\System32\\cmd.exe\"");
-
-    //QProcess::startDetached("C:\\Windows\System32\cmd.exe", arguments);
-    //proc->startDetached("\"C:\\Windows\\System32\\cmd.exe\"",arguments);
-
+    QProcess* proc=new QProcess();
+    QString str = " more C:\\win_o.txt";
+    QByteArray user_cmd = str.toUtf8();
+    proc->start("cmd.exe /C start cmd.exe \n\r");
+    proc->write("cd C:\\ \n\r");
+    proc->write(user_cmd+"\n\r");
 }
