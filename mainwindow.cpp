@@ -7,15 +7,6 @@ MainWindow::MainWindow(QWidget *parent)
 {
     ui->setupUi(this);
 
-    //pix_x = new QPixmap("D:\\T_x.jpg");
-    //pix_o = new QPixmap("D:\\T_o.jpg");
-
-    //pix_x = new QPixmap(":/T_x.jpg");
-    //pix_o = new QPixmap(":/T_o.jpg");
-
-    //icon_x = new QIcon(*pix_x);
-    //icon_o = new QIcon(*pix_o);
-
     icon_x = new QIcon();
     icon_o = new QIcon();
 

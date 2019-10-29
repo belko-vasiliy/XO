@@ -20,8 +20,6 @@ class MainWindow : public QMainWindow
     Q_OBJECT
     QTcpServer* server = nullptr;
     QTcpSocket* socket = nullptr;
-    QPixmap* pix_x;
-    QPixmap* pix_o;
     QIcon* icon_x;
     QIcon* icon_o;
     int enum_xo;

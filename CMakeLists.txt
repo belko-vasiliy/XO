@@ -28,7 +28,7 @@ add_executable(XO
   win.h
   qpushbuttonid.cpp
   qpushbuttonid.h
-  resource.grc
+  resource.qrc
 )
 
 target_link_libraries(XO PRIVATE Qt5::Widgets)
